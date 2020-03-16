@@ -1,0 +1,13 @@
+/*
+Theme Name: 	GeneratePress-Child
+Version: 		1.0
+Author: 		P. Hilgarth
+Template:		generatepress
+*/
+
+@import url("../generatepress/style.css");
+
+
+.inside-header {
+	background-color: yellowgreen;
+}
