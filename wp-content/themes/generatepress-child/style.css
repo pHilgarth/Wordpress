@@ -9,5 +9,43 @@ Template:		generatepress
 
 
 .inside-header {
-	background-color: yellowgreen;
+	background-size: cover;
+	background-image: url(../../uploads/2020/03/slider-1.jpg);
+	background-position: center center;
+	height: 75vh;
+}
+
+.inside-header.grid-container {
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+}
+
+.inside-navigation.grid-container {
+	margin: 0;
+	max-width: 100%;
+}
+
+.main-navigation {
+	background-color: transparent;
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
+
+.main-navigation .menu-item a {
+	padding: 0 3rem !important;
+}
+
+.main-navigation .main-nav ul li[class*="current-menu-"] > a {
+	background-color: transparent;
+}
+
+.tour-btn a {
+	transition: all .2s;
+}
+
+.tour-btn a:hover {
+	transform: scale(1.1);
+	transition: all .2s;
 }
